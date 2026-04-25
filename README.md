@@ -38,3 +38,43 @@ Our **OpenClaw** agents ("The Weavers") autonomously manage the "Loop until Perf
 ├── contracts/          # $HELIX and IP-NFT Smart Contracts
 ├── app/                # Next.js Simulation Platform & Dashboard
 └── simulation/         # GFlowNet "Flow" Visualization Tools
+```
+
+## 🏗 Installation & Setup
+
+1. **Clone the Repo:**
+   ```bash
+   git clone [https://github.com/nadhirhassen/helix-alpha.git](https://github.com/nadhirhassen/helix-alpha.git)
+   cd helix-alpha
+   ```
+
+2. **Initialize OpenClaw Environment:**
+   ```bash
+   pip install openclaw-sdk rdkit-pypi torch-gfn
+   ```
+
+3. **Deploy Local Node:**
+   ```bash
+   openclaw start --skill brain/gfn_engine/trainer.py
+   ```
+
+## 📊 The Simulation Dashboard
+HelixAlpha includes a real-time web-based simulation platform to visualize:
+- **Causal Discovery Paths:** Interactive 3D graphs of molecular rewards.
+- **Compute Grid Status:** Live telemetry from **AIML Adelaide** and decentralized nodes.
+- **Marketplace:** Live bidding on fractionalized IP-NFTs.
+
+---
+
+## 💎 Financial Business Model
+HelixAlpha utilizes a **Circular Value Loop**:
+1. **Incentivize:** Researchers provide data $\rightarrow$ Earn $HELIX.
+2. **Reason:** GFlowNets identify leads $\rightarrow$ Mint IP-NFTs.
+3. **Monetize:** Pharma firms license data $\rightarrow$ Buy back and Burn $HELIX.
+
+## 🤝 Contributing
+We are looking for Bio-informaticians, ML Engineers, and Quant-Fin experts. Please see `CONTRIBUTING.md` for details on how to earn $HELIX through our bug-bounty and data-contribution programs.
+
+---
+
+**© 2026 HelixAlpha. Authored by Nadhir Hassen.** *Bridging the gap between machine reasoning and biological certainty at Lot Fourteen.*
